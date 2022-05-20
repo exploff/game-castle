@@ -9,6 +9,7 @@ public class HealthPlayer : MonoBehaviour
 
     void Start()
     {
+        
         currentHealth = maxHealth;
         healthBar.SetHealth(currentHealth);
     }
