@@ -4,6 +4,19 @@
         {
             "historyText": "Après des années de captivité dans les profondeurs du château, vous parvenez à vous échapper de votre cachot. Dans une petite pièce en pierre juste à côtés des geoles se trouve un coffre en bois. Le verrou est ouvert...\nVous entendez des pas approcher, il ne faut pas vous attarder ici !\nVous vous faufilez vers la sortie et disparaissez dans les ténébres...",
             "actionText": "Vous récupérez immédiatement deux nouveaux objets.\n",
+            "name": "start",
+            "action": ""
+        },
+        {
+            "historyText": "Un rugissement assourdissant retentit et le couloir commence à trembler. Une section d uvieux myr près de vous s'effondre et vous vous retrouvez enfoui sous d'énormes et lourds rochers",
+            "actionText": "Pour déplacer les décombres qui vous recouvrent, vous devez jeter un dé jusqu'à obtenir un résultat de FORCE. Vous perdez 1PV après chaque tentative. \nSi vous ne vous libérez pas après 3 tentatives, vous parvenez à vous dégager.",
+            "name": "eboulement",
+            "action": ""
+        },
+        {
+            "historyText": "Votre botte se prend dans un fil relié à un piège ; une pluie d'acide se déverse du plafond.",
+            "actionText": "Vous devez lancer un dé et tenter d'obtenir un résultat de RUSE en un seul jet. \nSuccès: Vous évitez le piège. \nEchec: L'acide vous éclabousse et brûle l'un des objets que vous portez. Si vous n'avez aucun objet, perdez 1PV.",
+            "name": "pluie_acide",
             "action": ""
         }
     ]

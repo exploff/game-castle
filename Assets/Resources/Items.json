@@ -1,0 +1,19 @@
+{
+    "items":
+    [
+        {
+            "id": 1,
+            "name": "pomme",
+            "title": "Pomme en décomposition",
+            "description": "Cliquez et défaussez pour soigner votre personnage d'1PV.",
+            "action": ""
+        },
+        {
+            "id": 2,
+            "name": "bouclier",
+            "title": "Bouclier pourri",
+            "description": "Lorsque vous perdez des PV, perdez-en un de moins (vous ne pouvez pas réduire le résultat à zéro).",
+            "action": ""
+        }
+    ]
+}

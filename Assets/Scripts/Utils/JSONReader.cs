@@ -22,6 +22,7 @@ public class JSONReader : MonoBehaviour
     {
         public string historyText;
         public string actionText;
+        public string name;
         public string action;
     }
         

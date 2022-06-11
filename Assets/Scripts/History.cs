@@ -34,16 +34,13 @@ public class History : MonoBehaviour
     }
 
     public void Update() {
-            
-    }
-
-    public void Start() {        
-
-        
+        if(Input.GetKeyDown(KeyCode.M)){
+            ClickOnIconBook();
+        }
     }
 
     public void DisplayHistoryText() {
-        Debug.Log("Recuperation des valeurs");
+
         TMP_Text TMP_textHistory = textHistory.GetComponent<TMP_Text>();
         TMP_Text TMP_textAction = textAction.GetComponent<TMP_Text>();
         if (this.historyNumber <= this.JSONReader.historyTextList.historiesText.Length) {
